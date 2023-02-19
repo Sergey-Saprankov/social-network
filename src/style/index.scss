@@ -1,11 +1,13 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
+@import "reset";
+@import 'variables/variables';
+@import "themes/dark";
+@import "themes/light";
 
 .app {
     position: relative;
     width: 100vw;
     min-height: 100vh;
+    font: var(--font-m);
+    background: var(--bg-color);
+    color: var(--primary-color);
 }
